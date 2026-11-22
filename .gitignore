@@ -1,0 +1,20 @@
+# Secrets et identifiants : ne jamais versionner
+.env
+.aws/
+*.pem
+credentials
+config
+config.txt
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Données et fichiers générés
+*.parquet
+*.csv
+*.docx
+lifecycle.json
+out.json
+test*.txt
